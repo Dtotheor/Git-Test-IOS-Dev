@@ -14,6 +14,7 @@
 		DEAB71BA1B742DBF0042E595 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB71B91B742DBF0042E595 /* Images.xcassets */; };
 		DEAB71BD1B742DBF0042E595 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAB71BB1B742DBF0042E595 /* LaunchScreen.xib */; };
 		DEAB71C91B742DBF0042E595 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB71C81B742DBF0042E595 /* Git_TestTests.m */; };
+		DEAB71D41B7438E50042E595 /* newthing.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB71D31B7438E50042E595 /* newthing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DEAB71C21B742DBF0042E595 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB71C71B742DBF0042E595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEAB71C81B742DBF0042E595 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		DEAB71D21B7438E50042E595 /* newthing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newthing.h; sourceTree = "<group>"; };
+		DEAB71D31B7438E50042E595 /* newthing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newthing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		DEAB71A01B742DBF0042E595 = {
 			isa = PBXGroup;
 			children = (
+				DEAB71D21B7438E50042E595 /* newthing.h */,
+				DEAB71D31B7438E50042E595 /* newthing.m */,
 				DEAB71AB1B742DBF0042E595 /* Git Test */,
 				DEAB71C51B742DBF0042E595 /* Git TestTests */,
 				DEAB71AA1B742DBF0042E595 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEAB71B51B742DBF0042E595 /* ViewController.m in Sources */,
+				DEAB71D41B7438E50042E595 /* newthing.m in Sources */,
 				DEAB71B21B742DBF0042E595 /* AppDelegate.m in Sources */,
 				DEAB71AF1B742DBF0042E595 /* main.m in Sources */,
 			);
